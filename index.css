@@ -3,6 +3,12 @@
   0% { margin-left: -50%; opacity: 0 }
   100% { margin-left: 0%; opacity: 1 }
 }
+
+html, body
+{
+  height: 99%;
+}
+
 body
 {
   background: rgb(27,27,27);
@@ -24,9 +30,4 @@ body
   margin-top: 20%;
   font-size: xxx-large;
   animation: anim1 3s ease-out;
-}
-
-.page
-{
-  border: solid 1px white;
 }
