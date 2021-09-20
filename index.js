@@ -1,8 +1,14 @@
-var i = 0;
-function character(id,txt,speed) {
-  if (i < txt.length) {
-    document.getElementById(id).innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
+function character(id,text,spd)
+{
+  var i = 0;
+  var txt = text;
+  var speed = spd; 
+
+  function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById(id).innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
   }
 }
