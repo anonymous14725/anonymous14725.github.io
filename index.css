@@ -1,7 +1,15 @@
-body{
+body
+{
   background: rgb(27,27,27);
 }
-.header{
+
+#head 
+{
+  text-align: center;
+}
+
+.header
+{
   color: rgb(127,186,0);
   text-align: center;
   margin-top: 20%;
