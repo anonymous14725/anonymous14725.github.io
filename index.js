@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Hello World';
+var txt = 'HackX for hackers of the professional and beginner';
 var speed = 50;
 
 function typing(){
