@@ -1,14 +1,13 @@
-document.addEventListener("load",function(){
-    var i = 0;
-    var txt = 'for hackers of the professional and beginner';
-    var speed = 50;
-    if (i < txt.length)
-    {
+var i = 0;
+var txt = 'for hackers of the professional and beginner';
+var speed = 50;
+function typing(){
+    if (i < txt.length){
         document.getElementById("head").innerHTML += txt.charAt(i);
         i++;
         setTimeout(typing, speed);
     }
-});
+}
 
 function mouse(event)
 {
@@ -25,6 +24,7 @@ function mouse(event)
     document.getElementById("moving").style.borderRadius = "900px";
     document.getElementById("moving").style.boxShadow = "0px 0px 40px white";
 }
+
 function mouseleave()
 {
     document.getElementById("moving").style.width = "50px";
