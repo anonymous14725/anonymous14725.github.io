@@ -1,3 +1,8 @@
+@keyframes anim1
+{
+  0% { margin-left: 0%; }
+  100% { margin-left: 100%; }
+}
 body
 {
   background: rgb(27,27,27);
@@ -17,4 +22,5 @@ body
   text-shadow: 2px 2px 3px rgb(59,151,6);
   margin-top: 20%;
   font-size: xxx-large;
+  animation: anim1 1s ease;
 }
