@@ -24,7 +24,7 @@ function mouse(event){
     document.getElementById("msmn").style.borderRadius = "900px";
     document.getElementById("msmn").style.boxShadow = "0px 0px 40px white";
 }
-function demenu(){
+function mouseleave(){
     document.getElementById("msmn").style.width = "50px";
     document.getElementById("msmn").style.height = "50px";
     document.getElementById("msmn").style.background = "transparent";
