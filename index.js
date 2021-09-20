@@ -1,8 +1,7 @@
-var i = 0;
-var txt = 'for hackers of the professional and beginner';
-var speed = 50;
-
 document.addEventListener("load",function(){
+    var i = 0;
+    var txt = 'for hackers of the professional and beginner';
+    var speed = 50;
     if (i < txt.length)
     {
         document.getElementById("head").innerHTML += txt.charAt(i);
