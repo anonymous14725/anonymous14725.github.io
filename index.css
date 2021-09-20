@@ -3,4 +3,7 @@ body{
 }
 .header{
   color: rgb(127,186,0);
+  position: relative;
+  top: 50%;
+  left: 50%;
 }
