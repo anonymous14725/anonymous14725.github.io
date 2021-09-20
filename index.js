@@ -1,4 +1,4 @@
-function Character(text,speed){
+function character(text,speed){
   var i = 0;
   var txt = text;
   var speed = speed;
