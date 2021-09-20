@@ -25,3 +25,8 @@ body
   font-size: xxx-large;
   animation: anim1 3s ease-out;
 }
+
+.page
+{
+  border: solid 1px white;
+}
