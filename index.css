@@ -13,6 +13,7 @@ body
   text-align: center;
   color: #af0202;
   margin-top: -2%;
+  animation: anim1 1s ease-in;
 }
 
 .header
@@ -22,5 +23,5 @@ body
   text-shadow: 2px 2px 3px rgb(59,151,6);
   margin-top: 20%;
   font-size: xxx-large;
-  animation: anim1 1s ease;
+  animation: anim1 1s ease-in;
 }
