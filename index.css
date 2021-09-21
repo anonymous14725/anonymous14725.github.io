@@ -17,6 +17,8 @@ body
 
 #head 
 {
+  position: relative;
+  top: 40%;
   text-align: center;
   color: #af0202;
   margin-top: -2%;
@@ -26,11 +28,10 @@ body
 .header
 {
   color: rgb(127,186,0);
-  position: absolute;
+  position: relative;
   top: 40%;
-  left: 42%;
   text-shadow: 2px 2px 3px rgb(59,151,6);
-  margin-top: 20%;
+  text-align: center;
   font-size: xxx-large;
   animation: anim1 3s ease-out;
 }
