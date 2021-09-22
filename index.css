@@ -18,6 +18,9 @@ body
 ul
 {
 	font-family: arial;
+	text-align-last: center;
+	top: -2%;
+	left: -1%;
 }
 
 ul li 
@@ -27,19 +30,20 @@ ul li
 	padding: 10px;
 	border-radius: 3px;
 	color: green;
+	padding: 10px;
 }
 
 ul li:hover
 {
 	transform: scale(1.2);
-	border-bottom:solid 2px red;
+	border-bottom: solid 2px red;
 }
 
 li.active
 {
 	background: rgb(20,150,10);
 	border-radius: 15px;
-	box-shadow:-3px -3px 10px green inset;
+	box-shadow: -3px -3px 10px green inset;
 	color: white;
 }
 
