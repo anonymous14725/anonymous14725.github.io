@@ -27,7 +27,6 @@ ul li
 	padding: 10px;
 	border-radius: 3px;
 	color: green;
-	border-bottom:solid 3px red;
 }
 
 ul li:hover
