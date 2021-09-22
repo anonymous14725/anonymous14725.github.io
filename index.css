@@ -31,6 +31,8 @@ ul li
 
 ul li:hover
 {
+	transform: scale(1.2);
+	border-bottom: 3px red;
 }
 
 li.active
@@ -39,11 +41,6 @@ li.active
 	border-radius: 15px;
 	box-shadow:-3px -3px 10px green inset;
 	color: white;
-}
-
-li.active:hover
-{
-	background: blue;
 }
 
 #head 
