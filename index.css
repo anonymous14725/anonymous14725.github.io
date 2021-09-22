@@ -1,45 +1,44 @@
 @keyframes anim1
 {
-  0% { margin-left: -50%; opacity: 0 }
-  100% { margin-left: 0%; opacity: 1 }
+	0% { margin-left: -50%; opacity: 0 }
+	100% { margin-left: 0%; opacity: 1 }
 }
 
 html
 {
-  height: 99%;
+	height: 99%;
 }
 
 body
 {
-  background: rgb(27,27,27);
-  height: 100%;
+	background: rgb(27,27,27);
+	height: 100%;
 }
 
 ul
 {
 	transition: 1s ease;
-    font-family: arial;
+	font-family: arial;
 }
 
 ul li 
 {
 	display: inline-block;
-    padding: 10px;
-    border-radius: 3px;
-    
+	padding: 10px;
+	border-radius: 3px;
+	color: green;
 }
 
 ul li:hover
 {
-	background: red;
 }
 
 li.active
 {
-	background: blue;
-    border-radius: 15px;
-    box-shadow:-3px -3px 10px cyan inset;
-    color: white;
+	background: rgb(20,150,10);
+	border-radius: 15px;
+	box-shadow:-3px -3px 10px green inset;
+	color: white;
 }
 
 li.active:hover
@@ -49,22 +48,22 @@ li.active:hover
 
 #head 
 {
-  position: relative;
-  top: 40%;
-  left: 0;
-  text-align: center;
-  color: #af0202;
-  animation: anim1 3s ease-out;
+	position: relative;
+	top: 40%;
+	left: 0;
+	text-align: center;
+	color: #af0202;
+	animation: anim1 3s ease-out;
 }
 
 .header
 {
-  color: rgb(127,186,0);
-  position: relative;
-  top: 40%;
-  left: 0;
-  text-shadow: 2px 2px 3px rgb(59,151,6);
-  text-align: center;
-  font-size: xxx-large;
-  animation: anim1 3s ease-out;
+	color: rgb(127,186,0);
+	position: relative;
+	top: 40%;
+	left: 0;
+	text-shadow: 2px 2px 3px rgb(59,151,6);
+	text-align: center;
+	font-size: xxx-large;
+	animation: anim1 3s ease-out;
 }
