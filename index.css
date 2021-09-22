@@ -15,25 +15,36 @@ body
   height: 100%;
 }
 
-.pill-nav a {
-  margin-left: 50%;
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  font-size: 17px;
-  border-radius: 5px;
+ul
+{
+	transition: 1s ease;
+    font-family: arial;
 }
 
-.pill-nav a:hover {
-  background-color: transparent;
-  color: green;
+ul li 
+{
+	display: inline-block;
+    padding: 10px;
+    border-radius: 3px;
+    
 }
 
-.pill-nav a.active {
-  background-color: rgb(10,70,0);
-  color: white;
+ul li:hover
+{
+	background: red;
+}
+
+li.active
+{
+	background: blue;
+    border-radius: 15px;
+    box-shadow:-3px -3px 10px cyan inset;
+    color: white;
+}
+
+li.active:hover
+{
+	background: blue;
 }
 
 #head 
