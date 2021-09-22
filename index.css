@@ -16,6 +16,7 @@ body
 }
 
 .pill-nav a {
+  margin-left: 50%;
   display: inline-block;
   color: white;
   text-align: center;
