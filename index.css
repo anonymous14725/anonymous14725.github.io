@@ -17,22 +17,22 @@ body
 
 ul
 {
-	transition: 1s ease;
 	font-family: arial;
 }
 
 ul li 
 {
+	transition: 1s ease;
 	display: inline-block;
 	padding: 10px;
 	border-radius: 3px;
 	color: green;
+	border-bottom:solid 3px red;
 }
 
 ul li:hover
 {
 	transform: scale(1.2);
-	border-bottom: 3px red;
 }
 
 li.active
