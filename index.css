@@ -33,6 +33,7 @@ ul li
 ul li:hover
 {
 	transform: scale(1.2);
+	border-bottom:solid 2px red;
 }
 
 li.active
