@@ -19,7 +19,7 @@ ul
 {
 	font-family: arial;
 	text-align-last: center;
-	position: fixed;
+	position: relative;
 	top: -2%;
 	left: -1%;
 }
