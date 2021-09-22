@@ -19,6 +19,9 @@ ul
 {
 	font-family: arial;
 	text-align-last: center;
+	position: fixed;
+	top: -2%;
+	left: -1%;
 }
 
 ul li 
