@@ -20,7 +20,7 @@ ul
 	font-family: arial;
 	text-align-last: center;
 	position: relative;
-	top: 0%;
+	top: -1%;
 	left: -5%;
 }
 
@@ -50,7 +50,7 @@ li.active
 #head 
 {
 	position: relative;
-	top: 40%;
+	top: 39%;
 	left: 0;
 	text-align: center;
 	color: #af0202;
@@ -61,7 +61,7 @@ li.active
 {
 	color: rgb(127,186,0);
 	position: relative;
-	top: 40%;
+	top: 39%;
 	left: 0;
 	text-shadow: 2px 2px 3px rgb(59,151,6);
 	text-align: center;
