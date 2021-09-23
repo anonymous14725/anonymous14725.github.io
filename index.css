@@ -4,6 +4,16 @@
 	100% { margin-left: 0%; opacity: 1 }
 }
 
+@media screen and (max-width: 700px)
+{
+	ul
+	{
+		position: relative;
+		top: -2%;
+		left: -1%;
+	}
+}
+
 html
 {
 	height: 99%;
@@ -20,7 +30,7 @@ ul
 	font-family: arial;
 	text-align-last: center;
 	position: relative;
-	top: -1%;
+	top: -2%;
 	left: -1%;
 }
 
