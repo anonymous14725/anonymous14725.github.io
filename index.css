@@ -19,6 +19,9 @@ ul
 {
 	font-family: arial;
 	text-align-last: center;
+	position: absolute;
+	top: 0%;
+	left: -5%;
 }
 
 ul li 
@@ -28,7 +31,6 @@ ul li
 	padding: 10px;
 	border-radius: 3px;
 	color: green;
-	padding: 10px;
 }
 
 ul li:hover
