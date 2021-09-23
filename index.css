@@ -19,7 +19,7 @@ ul
 {
 	font-family: arial;
 	text-align-last: center;
-	position: absolute;
+	position: relative;
 	top: 0%;
 	left: -5%;
 }
@@ -28,7 +28,7 @@ ul li
 {
 	transition: 1s ease;
 	display: inline-block;
-	padding: 10px;
+	padding: 9px;
 	border-radius: 3px;
 	color: green;
 }
