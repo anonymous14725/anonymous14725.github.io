@@ -4,6 +4,13 @@
 	100% { margin-left: 0%; opacity: 1 }
 }
 
+@keyframes anim2
+{
+	0% { transform: translateY(-5px); }
+	50% { transform: translateY(5px); }
+ 	100% { transform: translateY(-5px); }
+}
+
 @media screen and (max-width: 700px)
 {
 	ul
@@ -51,8 +58,7 @@ ul li
 
 ul li:hover
 {
-	transform: scale(1.2);
-	border-bottom: solid 2px red;
+	animation: anim2 1s infinite;
 }
 
 li.active
