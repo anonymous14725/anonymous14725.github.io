@@ -73,7 +73,7 @@ li.active
 {
 	position: relative;
 	display: inline-block;
-	
+	transition: 1s ease;
 }
 
 .tooltip .tooltiptext 
