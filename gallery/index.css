@@ -1,8 +1,13 @@
 @import "/index.css";
 
+html
+{
+	height: 150%;
+}
+
 body
 {
-  background: rgb(27, 27, 27);
+	background: rgb(27, 27, 27);
 }
 
 .heads
