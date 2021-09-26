@@ -1,5 +1,13 @@
 @import "/index.css";
 
+@media screen and (max-width: 360px)
+{
+	html
+	{
+		height: 170%;
+	}
+}
+
 html
 {
 	height: 150%;
