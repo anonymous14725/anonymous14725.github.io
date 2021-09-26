@@ -19,7 +19,7 @@ function mouse(event)
     document.getElementById("msmn").style.background = "white";
     document.getElementById("msmn").style.marginTop = "-20px";
     document.getElementById("msmn").style.filter = "blur(15px)";
-    document.getElementById("msmn").style.position = "sticky";
+    document.getElementById("msmn").style.position = "fixed";
     document.getElementById("msmn").style.top = y + "px";
     document.getElementById("msmn").style.left = x + "px";
     document.getElementById("msmn").style.width = "20px";
