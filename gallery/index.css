@@ -4,3 +4,15 @@ body
 {
   background: rgb(27, 27, 27);
 }
+
+.heads
+{
+  color: rgb(127,186,0);
+	position: relative;
+	top: 25%;
+	left: 0;
+	text-shadow: 2px 2px 3px rgb(59,151,6);
+	text-align: center;
+	font-size: xxx-large;
+	animation: anim1 3s ease-out;
+}
