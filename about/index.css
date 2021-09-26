@@ -16,4 +16,7 @@ body
 #about
 {
 	color: #fff;
+	margin-left: 15%;
+	max-width: 70%;
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
