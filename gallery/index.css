@@ -17,3 +17,9 @@ body
 	text-align: center;
 	font-size: xxx-large;
 }
+
+.pic
+{
+	border-radius: 200px;
+	box-shadow: 1px 5px 20px #000;
+}
