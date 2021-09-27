@@ -21,6 +21,11 @@
 	}
 }
 
+::scrollbar
+{
+	background: transparent;
+}
+
 ::selection
 {
 	background: black;
