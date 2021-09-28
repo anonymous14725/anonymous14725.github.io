@@ -18,6 +18,12 @@ body
 	font-size: xxx-large;
 }
 
+.installation
+{
+	color: white;
+	margin-left: 15%;
+}
+
 #downloads
 {
 	color: #fff;
