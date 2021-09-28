@@ -10,6 +10,12 @@ body
 	background: rgb(27, 27, 27);
 }
 
+hr
+{
+	border: doshed 1px green;
+	width: 50%;
+}
+
 .heads
 {
 	color: rgb(127,186,0);
